@@ -22,4 +22,10 @@ jobs:
 
       - name: 'login to docker'
         run: docker login -- username mohamedeee10 --password dckr_pat_pVIifLyc0ERMKJcYQtgNnnykHiw
+
+      - name: "building "
+        run: docker build -t mohamedeee10/test6
+
+      - name: "pushing"
+        run: docker push
     
